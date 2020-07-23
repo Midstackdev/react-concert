@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './resources/styles.css'
 
 import Header from './components/layouts/Header'
+import Featured from './components/featured'
 
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
     return (
       <div className="App" style={{height:"1500px", background:"cornflowerblue"}}>
         <Header/>
-        Hello
+        <Featured />
       </div>
     );
   }
