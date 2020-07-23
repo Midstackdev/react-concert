@@ -26,6 +26,7 @@ class CountDown extends Component {
         minutes,
         seconds,
       })
+      // console.log(new Date())
     }
   }
 
